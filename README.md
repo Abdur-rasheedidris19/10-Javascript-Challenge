@@ -1,6 +1,6 @@
 ## Coding Challenge - 10 JavaScript Projects.
 
-YouTube video is now Live, on Florin Pop [Youtube](https://www.youtube.com/watch?v=8GPPJpiLqHk)
+YouTube video is now Live, on Florin Pop [Channel](https://www.youtube.com/watch?v=8GPPJpiLqHk)
 
 You can view my clone project [here](https://10-javascript-challenge.netlify.app/)
 
