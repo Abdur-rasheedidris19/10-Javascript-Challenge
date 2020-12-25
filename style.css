@@ -69,10 +69,13 @@ ul li a:hover {
     opacity: 0.9;
 }
 small {
-    color: #5cc4a1;
+    color: #c6e2d9;
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.5;
+}
+small a {
+    color: #c6e2d9;
 }
 /* Footer */
 
