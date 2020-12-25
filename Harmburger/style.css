@@ -1,9 +1,169 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body Content*/
 
 body {
+    background: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 40px;
+    left: 20px;
+    
+}
+.navbar a {
+    color: #dddbdb;
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.navbar a:hover {
+    background-color: white;
+    color: #494343;
+}
+/*Show case */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 460px;
+    margin: auto;
+}
+h3 {
+    font-size: 1.7rem;
+    text-align: center;
+}
+/* Harmburger  Icon */
+
+.menu-btn {
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Poppins", sans-serif;
+    position: fixed;
+    transition: transform .5s ease-in-out;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+/* Harmburger Close Icon */
+.menu-btn.active {
+    transform: translateX(-100px);
+    transition: all .5s ease-in-out;
+}
+
+/* Harmburger First Strokes */
+.menu-btn_burger {
+    width: 50px;
+    height: 6px;
+    position: absolute;  
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+/* Harmbuger second & third strokes*/
+
+.menu-btn_burger::before,
+.menu-btn_burger::after {
+    content: '';
+    width: 50px;
+    height: 6px;
+    position: absolute;  
+    background: #fff;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.menu-btn_burger::before {
+    transform: translateY(-16px);
+}
+
+.menu-btn_burger::after {
+    transform: translateY(16px);
+}
+
+/* Harmbuger close animation effect*/
+
+.menu-btn.open .menu-btn_burger {
+    transform: translateX(-50px);
+    background: transparent;
+}
+
+.menu-btn.open .menu-btn_burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open .menu-btn_burger::after {
+    transform: rotate(-45deg) translate(35px, 35px); 
+}
+
+/* NAVIGATION */
+nav {
+    background:#494343;
+    border: none;
+    color: #272727;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 1rem;
+    transform: translateX(100%);
+}
+
+/* Collapsible menu */
+nav.active {
+    transform: translateX(0);
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+}
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+footer {
+    background:#494343;
+    color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color:  #1d1d20;
 }

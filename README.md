@@ -13,3 +13,10 @@ I Took on a challenge to make my clone:
 -   menu > li > a -> hidden
 -   toggle on click
 -   animation
+
+2. Toast Notification
+
+-   toast container floating
+-   toast design
+-   button
+-   click show random toast message
