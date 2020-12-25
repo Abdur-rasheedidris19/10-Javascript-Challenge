@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+/* General body styles */
+
 body {
     background-color: rebeccapurple;
     display: flex;
@@ -12,6 +16,7 @@ body {
     padding: 50px;
 }
 
+/* Paragraph Tags */
 
 p {
     color: #dddddd;
@@ -20,6 +25,8 @@ p {
     line-height: 1.5;
     font-size: 2rem;
 }
+
+/* Footer */
 
 footer {
     background-color: #7741ad;
