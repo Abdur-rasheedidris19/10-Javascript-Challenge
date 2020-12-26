@@ -41,6 +41,7 @@ p {
 img {
     border-radius: 50%;
     border: 2px solid  #dde0de;
+    object-fit: cover;
 }
 
 /* List styles */
