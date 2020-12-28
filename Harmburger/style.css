@@ -65,15 +65,15 @@ p {
 /* Harmburger  Icon */
 
 .menu-btn {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: fixed;
     transition: transform .5s ease-in-out;
     cursor: pointer;
-    top: 14px;
+    top: 35px;
     right: 20px;
 }
 /* Harmburger Close Icon */
@@ -84,14 +84,14 @@ p {
 
 /* Harmburger First Strokes */
 .menu-btn_burger {
-    width: 50px;
-    height: 6px;
+    width: 25px;
+    height: 3px;
     position: absolute;  
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 2px;
     transition: all .5s ease-in-out;
 }
 
@@ -100,19 +100,19 @@ p {
 .menu-btn_burger::before,
 .menu-btn_burger::after {
     content: '';
-    width: 50px;
-    height: 6px;
+    width: 25px;
+    height: 3px;
     position: absolute;  
     background: #fff;
-    border-radius: 5px;
+    border-radius:2px;
     transition: all .5s ease-in-out;
 }
 .menu-btn_burger::before {
-    transform: translateY(-16px);
+    transform: translateY(-8px);
 }
 
 .menu-btn_burger::after {
-    transform: translateY(16px);
+    transform: translateY(8px);
 }
 
 /* Harmbuger close animation effect*/
