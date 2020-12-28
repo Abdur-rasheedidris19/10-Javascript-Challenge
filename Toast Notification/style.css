@@ -23,6 +23,8 @@ body {
     min-height: 100vh;
     margin: auto;
     padding: 50px;
+    width: 450px;
+    max-width: 100%;
 }
 
 /* NAVIGATION */
@@ -77,8 +79,9 @@ button:hover {
 }
 
 .open {
-    transform: translate(60px, 0px);
+    transform: translate(10px, 0px);
     transition: 1s ease-in-out;
+
 }
 /* Footer */
 
