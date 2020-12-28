@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+    --bg-primary:  #0e95cae0; 
+    --light-bg-primary: #077ba87e; 
+    --bg-footer: #59a3c0;
+    --text-color: #b3def0;
+    --primary-text-color: #cbdce4;
+    --link-color: #02374d;
+}
+
+/* General body styles */
+
+body {
+    background-color: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 3rem;
+    min-height: 100vh;
+    margin: auto;
+    padding: 50px;
+}
+
+/* NAVIGATION */
+nav {
+    background: var(--bg-footer) !important;
+}
+.navbar a {
+    color:#fcfcfcd2
+}
+/* Paragraph Tags */
+
+p {
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 15px;
+}
+/* Button link */
+button {
+    padding: 10px;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: var(--link-color);
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0);
+
+}
+button:hover {
+    color: #ddd;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+
+    
+}
+/* Toast Notification */
+
+.pop {
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+    background-color: var(--light-bg-primary);
+    color: var(--primary-text-color);
+    border-radius: 0px 8px;
+    transform: translate(-400px, 0px);
+    transition: 1s ease-in-out;
+}
+
+.open {
+    transform: translate(60px, 0px);
+    transition: 1s ease-in-out;
+}
+/* Footer */
+
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primary-text-color);
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: var(--link-color);
+    text-decoration: none;
+}
