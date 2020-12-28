@@ -138,7 +138,7 @@ nav {
     position: fixed;
     top: 0;
     right: 0;
-    height: 50vh;
+    height: 35vh;
     padding: 1rem;
     transform: translateX(100%);
 }
