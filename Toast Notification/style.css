@@ -29,6 +29,7 @@ body {
 nav {
     background: var(--bg-footer) !important;
 }
+
 .navbar a {
     color:#fcfcfcd2
 }

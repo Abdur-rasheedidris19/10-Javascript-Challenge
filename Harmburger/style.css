@@ -73,7 +73,7 @@ p {
     position: fixed;
     transition: transform .5s ease-in-out;
     cursor: pointer;
-    top: 20px;
+    top: 14px;
     right: 20px;
 }
 /* Harmburger Close Icon */
