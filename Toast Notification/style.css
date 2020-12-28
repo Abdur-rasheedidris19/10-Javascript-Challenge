@@ -67,7 +67,7 @@ button:hover {
 
 .pop {
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 30px;
     background-color: var(--light-bg-primary);
     color: var(--primary-text-color);
