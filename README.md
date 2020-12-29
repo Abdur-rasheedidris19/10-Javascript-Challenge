@@ -20,3 +20,18 @@ I Took on a challenge to make my clone:
 -   toast design
 -   button
 -   click show random toast message
+
+3. Auto Write Text
+
+-   text
+-   index
+-   show text based on index
+-   increment index
+
+4. Popup / Modal
+
+-   button
+-   click on button to activate popup
+-   popup container
+-   popup with text
+-   close btn popup with click event

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+    --bg-primary:  rebeccapurple; 
+    --bg-footer: #350863;
+    --text-color:  rgb(141, 120, 161);
+}
+
+
+/* General body styles */
+
+body {
+    background-color: var(--bg-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 3rem;
+    min-height: 100vh;
+    margin: auto;
+    padding: 20px;
+    width: 450px;
+    max-width: 100%;
+}
+
+/* NAVIGATION */
+nav {
+    background: var(--bg-footer) !important;
+}
+
+.navbar a {
+    color:#fcfcfcd2
+}
+.container {
+ font-size: 1.5rem;
+ text-align: center;   
+ opacity: 0.8;
+ font-weight: bold;
+}
+/* Paragraph Tags */
+
+p {
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1rem;
+    padding: 15px;
+}
+/* Button link */
+button {
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    outline: none;
+    border: none;
+    background-color: var(--link-color);
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0);
+
+}
+button:active {
+    color: #ddd;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+
+    
+}
+/* Toast Notification */
+
+.pop {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    background-color: var(--light-bg-primary);
+    color: var(--primary-text-color);
+    border-radius: 0px 8px;
+    transform: translate(-400px, 0px);
+    transition: 1s ease-in-out;
+    margin-bottom: 55px;
+    margin-right: 40px;
+    max-width: 100%;
+}
+
+.open {
+    transform: translate(10px, 0px);
+    transition: 1s ease-in-out;
+
+}
+/* Footer */
+
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primary-text-color);
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: var(--link-color);
+    text-decoration: none;
+}
