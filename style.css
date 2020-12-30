@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #0e95ca; 
-    --bg-footer: #59a3c0;
-    --text-color: #b3def0;
-    --primary-text-color: #cbdce4;
+    --bg-primary:  #232324; 
+    --bg-footer: #2f2f33d8;
+    --text-color: #787a7a;
+    --primary-text-color: #7a7c7e;
 }
 
 /* General Styling */
@@ -72,18 +72,18 @@ ul li a:hover {
     color: #dededea2 ;
 }
 .disable {
-    color: #394b44;
+    color: #6e6d6d;
     pointer-events: none;
     opacity: 0.9;
 }
 small {
-    color: #c6e2d9;
+    color: var(--primary-text-color);
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.5;
 }
 small a {
-    color: #c6e2d9;
+    color: var(--primary-text-color);
 }
 /* Footer */
 
@@ -98,5 +98,5 @@ footer {
 }
 
 footer a {
-    color: #1d1d20;
+    color: #121214;
 }
