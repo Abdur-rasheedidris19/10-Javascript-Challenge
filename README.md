@@ -35,3 +35,12 @@ I Took on a challenge to make my clone:
 -   popup container
 -   popup with text
 -   close btn popup with click event
+
+5. Purple Heart Rain
+
+-   heart css
+-   falling animation
+-   create heart
+-   add class
+-   add it to body
+-   interval
