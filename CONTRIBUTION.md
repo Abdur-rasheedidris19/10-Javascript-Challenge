@@ -34,7 +34,6 @@ Add a friend to `Dare` him in this challenge if you choose in your `index.html`.
 index.html
 ```
 
-
 ## 2. Wait for Pull Request to merge
 
 ## 3. Celebrate - you've done your Challenge with pull request!!

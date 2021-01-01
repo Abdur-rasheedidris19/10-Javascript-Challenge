@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #d3097fe7; 
-    --bg-footer:  #b62b7c;
-    --text-color:   #d473ac;
-    --link-color:  #30011c;
+    --bg-primary:  #444444; 
+    --bg-footer:  #333030;
+    --text-color:   #333333;
+    --link-color:  #1f1e1e;
+    --primary-text-color: #8f8e8e;
 }
 
 
@@ -13,6 +14,7 @@
 body {
     background-color: var(--bg-primary);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,18 +27,29 @@ body {
 nav {
     background: var(--bg-footer) !important;
 }
+h3 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
 /*Button  */
 button {
     background:  #cac4c8;
-    color:  #e20586;
+    color:  #333333;
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
     outline: none;
     font-size: 1.3rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.1s linear;
 }
-button:hover {
-    opacity: 0.9;
+
+button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0;
 }
 /* Footer */
 
