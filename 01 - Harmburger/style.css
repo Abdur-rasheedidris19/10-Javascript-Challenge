@@ -139,7 +139,8 @@ nav {
     top: 0;
     right: 0;
     height: 35vh;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 1rem;
     transform: translateX(100%);
 }
