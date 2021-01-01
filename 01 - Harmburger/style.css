@@ -118,7 +118,7 @@ p {
 /* Harmbuger close animation effect*/
 
 .menu-btn.open .menu-btn_burger {
-    transform: translateX(-60px);
+    transform: translateX(-80px);
     background: transparent;
 }
 
@@ -139,6 +139,7 @@ nav {
     top: 0;
     right: 0;
     height: 35vh;
+    overflow: scroll;
     padding: 1rem;
     transform: translateX(100%);
 }
