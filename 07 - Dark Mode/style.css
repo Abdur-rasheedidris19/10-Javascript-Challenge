@@ -2,10 +2,7 @@
 
 :root {
     --bg-primary:  #122117; 
-    --bg-footer:  #13351f;
-    --text-color:   #1c2c21;
-    --link-color:  #021408;
-    --primary-text-color: #f1f1f1;
+    --bg-footer:  #666;
 }
 
 
@@ -22,7 +19,10 @@ body {
     min-height: 100vh;
     margin: auto;  
 }
-
+.dark {
+    background: #333;
+    color: #f1f1f1;
+}
 /* NAVIGATION */
 nav {
     background: var(--bg-footer) !important;
@@ -32,21 +32,12 @@ h1{
     font-size: 2.3rem;
     margin-bottom: 10px;
 }
-h3 {
-    font-weight: normal;
+p {
+    font-weight: 100;
     line-height: 1.5;
+    font-size: 1.5rem;
+    color: #eee;
 }
 .toggle {
     padding: 5px 25px;
-}
-/* Footer */
-
-footer {
-    background-color: var(--bg-footer);
-    color: var(--primary-text-color);
-}
-
-footer a {
-    color: var(--link-color);
-    text-decoration: none;
 }

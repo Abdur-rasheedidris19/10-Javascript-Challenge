@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #272727; 
-    --bg-footer: #494343;
+    --bg-primary:  #121c21; 
+    --bg-footer:  #112129;
     --text-color: #b3def0;
     --primary-text-color: #cbdce4;
     --secondary-color: #dddddd;
@@ -132,7 +132,7 @@ p {
 
 /* NAVIGATION */
 nav {
-    background:#494343;
+    background:var(--bg-footer);
     border: none;
     color: #272727;
     position: fixed;
@@ -167,7 +167,7 @@ nav a {
 /* Footer */
 
 footer {
-    background:#494343;
+    background:var(--bg-footer);
     color: var(--secondary-color);
     padding: 1rem;
     text-align: center;
@@ -177,5 +177,5 @@ footer {
 }
 
 footer a {
-    color:  #1d1d20;
+    color:  var(--text-color);
 }

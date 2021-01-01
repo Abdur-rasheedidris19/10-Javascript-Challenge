@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #0e95cae0; 
-    --light-bg-primary: #077ba87e; 
-    --bg-footer: #59a3c0;
-    --text-color: #b3def0;
-    --primary-text-color: #cbdce4;
-    --link-color: #02374d;
+    --bg-primary:  #191221; 
+    --light-bg-primary: #140b1f; 
+    --bg-footer: #241635;
+    --text-color:#f9f7fc;
+    --primary-text-color: #f3f3f3;
+    --link-color: #0e031b;
 }
 
 /* General body styles */
@@ -55,14 +55,14 @@ button {
     background-color: var(--link-color);
     color: var(--primary-text-color);
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: lighter;
     border-radius: 4px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 
 }
 button:active {
     color: #ddd;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0;
 
     
 }
