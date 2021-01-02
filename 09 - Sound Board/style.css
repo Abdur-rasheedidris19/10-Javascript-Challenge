@@ -13,7 +13,6 @@ body {
     background-color: var(--bg-primary);
     font-family: "Poppins", sans-serif; 
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -25,9 +24,7 @@ body {
 nav {
     background: var(--bg-footer) !important;
 }
-audio {
-    display: block;
-}
+
 
 /*Button  */
 button {
