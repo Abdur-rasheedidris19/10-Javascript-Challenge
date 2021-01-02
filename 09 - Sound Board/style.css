@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #211a12; 
-    --bg-footer:  #2b1a06;
+    --bg-primary:  #5c14a5; 
+    --bg-footer:  #3c0f68;
     --link-color:  #130b01;
 }
 
@@ -11,8 +11,9 @@
 
 body {
     background-color: var(--bg-primary);
+    font-family: "Poppins", sans-serif; 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -20,33 +21,29 @@ body {
     min-height: 100vh;
     margin: auto;  
 }
-.dark {
-    background: #333;
-    color: #f1f1f1;
-}
 /* NAVIGATION */
 nav {
     background: var(--bg-footer) !important;
 }
+audio {
+    display: block;
+}
 
-h1{
-    font-size: 2.3rem;
-    margin-bottom: 10px;
+/*Button  */
+button {
+    background:  #663399;
+    color:  white;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0px 7px;
+    font-size: 0.7rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
-p {
-    font-weight: 100;
-    line-height: 1.5;
-    font-size: 1.5rem;
-    color: #eee;
-}
-h5 {
-    margin-top: 10px;
-}
-.darkTheme {
-    padding: 40px;
-}
-.toggle {
-    padding: 5px 25px;
+
+button:active {
+    box-shadow: 0;
 }
 /* Footer */
 
