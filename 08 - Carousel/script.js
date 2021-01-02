@@ -1,5 +1,18 @@
-const toggle = document.querySelector('#toggle');
+const imgs = document.querySelector('#imgs');
+const img = document.querySelectorAll('#imgs img')
 
-toggle.addEventListener('click', (e)=> {
-    document.body.classList.toggle('dark', e.target.checked)
-})
+
+let idx = 0;
+
+function run() {
+    idx++;
+
+    if (idx > img.length - 1) {
+        idx = 0;
+    }
+
+ imgs.style.transform = `translateX(${- idx * 200}px)`;
+
+}
+
+setInterval(run, 2000);

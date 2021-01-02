@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #122117; 
-    --bg-footer:  #0a2714;
+    --bg-primary:  #211512; 
+    --bg-footer:   #441a10;
+    --link-color:  #1f0701;
 }
 
 
@@ -19,25 +20,33 @@ body {
     min-height: 100vh;
     margin: auto;  
 }
-.dark {
-    background: #333;
-    color: #f1f1f1;
-}
+
 /* NAVIGATION */
 nav {
     background: var(--bg-footer) !important;
 }
+.carousel {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;margin-top: 50px;
 
-h1{
-    font-size: 2.3rem;
-    margin-bottom: 10px;
 }
-p {
-    font-weight: 100;
-    line-height: 1.5;
-    font-size: 1.5rem;
-    color: #eee;
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
-.toggle {
-    padding: 5px 25px;
+.image-container {
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+}
+
+footer {
+    background-color: var(--bg-footer);
+}
+
+footer a {
+    color: var(--link-color);
 }
