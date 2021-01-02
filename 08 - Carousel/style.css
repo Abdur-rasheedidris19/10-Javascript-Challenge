@@ -28,7 +28,9 @@ nav {
 .carousel {
     width: 200px;
     height: 200px;
-    overflow: hidden;margin-top: 50px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 70px;
 
 }
 
