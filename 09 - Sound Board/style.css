@@ -33,12 +33,12 @@ audio {
 button {
     background:  #663399;
     color:  white;
-    padding: 7px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     border: none;
     outline: none;
     margin: 0px 7px;
-    font-size: 0.7rem;
+    font-size: 1rem;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 

@@ -118,7 +118,7 @@ p {
 /* Harmbuger close animation effect*/
 
 .menu-btn.open .menu-btn_burger {
-    transform: translateX(-95px);
+    transform: translateX(-70px);
     background: transparent;
 }
 
@@ -180,4 +180,5 @@ footer {
 
 footer a {
     color:  var(--text-color);
+    line-height: 1.5;
 }
