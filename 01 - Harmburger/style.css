@@ -118,7 +118,7 @@ p {
 /* Harmbuger close animation effect*/
 
 .menu-btn.open .menu-btn_burger {
-    transform: translateX(-70px);
+    transform: translateX(-95px);
     background: transparent;
 }
 
