@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 :root {
-    --bg-primary:  #211512; 
-    --bg-footer:   #441a10;
-    --link-color:  #1f0701;
+    --bg-primary:  #122117; 
+    --bg-footer:  #062c13;
+    --link-color: #011106;
 }
 
 
@@ -20,29 +20,23 @@ body {
     min-height: 100vh;
     margin: auto;  
 }
-
 /* NAVIGATION */
 nav {
     background: var(--bg-footer) !important;
 }
-.carousel {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin-top: 50px;
-    margin-bottom: 70px;
+
+.container {
+    width: 250px;
+    height: 230px;
+    object-fit: cover;
 
 }
 
 img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-}
-.image-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
+    height: 100%;
+    width: 100%;
+    transform-origin: center center;
+    transition: transform 2s ease-out;
 }
 
 footer {

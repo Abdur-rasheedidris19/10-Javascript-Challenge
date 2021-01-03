@@ -15,4 +15,4 @@ function run() {
 
 }
 
-setInterval(run, 2000);
+setInterval(run, 1500);
