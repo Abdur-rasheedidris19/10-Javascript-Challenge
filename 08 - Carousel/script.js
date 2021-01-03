@@ -1,8 +1,10 @@
+// declarations
+
 const imgs = document.querySelector('#imgs');
 const img = document.querySelectorAll('#imgs img')
-
-
 let idx = 0;
+
+// Function 
 
 function run() {
     idx++;
@@ -11,8 +13,9 @@ function run() {
         idx = 0;
     }
 
- imgs.style.transform = `translateX(${- idx * 200}px)`;
+ imgs.style.transform = `translateX(${- idx * 150}px)`;
 
 }
+// Time for reoccuring function to happen
 
 setInterval(run, 1500);

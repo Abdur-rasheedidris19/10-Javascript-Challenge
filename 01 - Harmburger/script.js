@@ -1,3 +1,5 @@
+// Declarations
+
 const menuBtn = document.querySelector('.menu-btn');
 const btn = document.querySelector('#btn');
 const nav = document.querySelector('.nav');

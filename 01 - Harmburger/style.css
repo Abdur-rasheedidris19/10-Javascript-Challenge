@@ -166,6 +166,10 @@ nav a {
     text-transform: capitalize;
 }
 
+nav a:hover {
+    opacity: 0.9;
+}
+
 /* Footer */
 
 footer {

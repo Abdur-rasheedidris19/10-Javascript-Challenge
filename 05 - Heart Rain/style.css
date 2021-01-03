@@ -30,8 +30,8 @@ nav {
 .heart {
     position: fixed;
     top: -5vh;
-    transform: translateY(0);
-    animation: fall 3s linear forwards;
+    transform: translateY(0); /* Heart should hide */
+    animation: fall 3s linear forwards; /* Hear dierection to fall straight */
     font-size: 2.3rem;
 }
 

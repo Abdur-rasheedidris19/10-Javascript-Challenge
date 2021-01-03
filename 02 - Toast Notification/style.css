@@ -82,6 +82,7 @@ button:active {
     max-width: 100%;
 }
 
+/*The Toast pop animation slide */
 .open {
     transform: translate(10px, 0px);
     transition: 1s ease-in-out;

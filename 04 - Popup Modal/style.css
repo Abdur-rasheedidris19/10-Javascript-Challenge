@@ -46,11 +46,12 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0;
+    opacity: 0;                     /* Remove the modal */
     pointer-events: none;
     transition: 0.4s ease-in-out;
 }
 
+/* Modal show up */
 .show {
     pointer-events: auto;
     opacity: 1;

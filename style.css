@@ -71,11 +71,6 @@ li a {
 ul li a:hover {
     color: #dededea2 ;
 }
-.disable {
-    color: #6e6d6d;
-    pointer-events: none;
-    opacity: 0.9;
-}
 small {
     color: var(--primary-text-color);
     font-weight: bold;
@@ -85,6 +80,7 @@ small {
 small a {
     color: var(--primary-text-color);
 }
+
 /* Footer */
 
 footer {
